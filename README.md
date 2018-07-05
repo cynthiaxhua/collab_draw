@@ -2,6 +2,8 @@
 
 A Kivy-based Python implementation of a drawing app that allows you and an AI to draw strokes interchangeably. 
 
+Demo: http://cynthiaxhua.com/art-works/collaborative-drawing/
+
 ## Default Parameters
 
 Using default parameters, the app will track every stroke drawn by the user. When the user lifts their pen/mouse, the app feeds the *last drawn stroke* to the pre-loaded AI. The app will then draw out the subsequent stroke predicted by the AI in the same style.
